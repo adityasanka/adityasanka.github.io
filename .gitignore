@@ -1,0 +1,17 @@
+# Hugo default output directory
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+/hugo_stats.json
+
+# Hugo cache directory
+/resources/
+
+# Hugo lock file
+.hugo_build.lock
+
+# Temporary files
+*.tmp
+
+# macOS
+.DS_Store
