@@ -6,28 +6,15 @@
 />
 
 <style>
-    /*
-    Options for background colors
-
-    1. **Off-white / Eggshell**: `#F8F8F8` - A very subtle off-white
-    2. **Ivory**: `#FFFFF0` - A warm white with a slight yellow tint
-    3. **Alabaster**: `#F2F0E6` - A soft white with a touch of warmth
-    4. **Snow**: `#FFFAFA` - A white with a hint of pink
-    5. **Seashell**: `#FFF5EE` - A warm white with a pink tint
-    6. **Linen**: `#FAF0E6` - A warmer off-white with beige undertones
-    7. **Paper white**: `#F4F4F4` - A soft, neutral off-white
-    */
-
     :root {
         --font-main: "Literata", sans-serif;
         --font-secondary: "Literata", sans-serif;
         --font-monospace: "Ubuntu Mono", monospace;
-        --font-scale: 1em;
-        /* Alabaster - A soft white with a touch of warmth */
-        --background-color: #f2f0e6;
-        --heading-color: #141413;
-        --text-color: #141413;
-        --blockquote-color: #141413;
+        --font-scale: 1.2em;
+        --background-color: #ffffff;
+        --heading-color: #1f2328;
+        --text-color: #1f2328;
+        --blockquote-color: #1f2328;
         --link-color: #1a5fb4;
         --code-background-color: #0d1117;
         --code-color: #f1f3f6;
@@ -35,10 +22,6 @@
 
     body {
         line-height: 1.6;
-    }
-
-    main {
-        margin: 0 1em;
     }
 
     .main-header {
@@ -54,6 +37,11 @@
 
     nav {
         text-align: right;
+    }
+
+    nav a {
+        margin-right: 0px;
+        margin-left: 1em;
     }
 
     .site-logo {
@@ -74,7 +62,7 @@
     hr {
         border: 1.5px solid black;
         border-radius: 10px; /* More rounded corners */
-        margin: 20px 0;
+        margin: 1em 0;
     }
 
     blockquote {
