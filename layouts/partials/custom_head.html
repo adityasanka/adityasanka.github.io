@@ -1,12 +1,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-    href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"
-    rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+  rel="stylesheet"
 />
 
 <style>
-    /*
+  /*
     1. **Off-white / Eggshell**: `#F8F8F8` - A very subtle off-white
     2. **Ivory**: `#FFFFF0` - A warm white with a slight yellow tint
     3. **Alabaster**: `#F2F0E6` - A soft white with a touch of warmth
@@ -16,64 +16,69 @@
     7. **Paper white**: `#F4F4F4` - A soft, neutral off-white
     */
 
-    :root {
-        --font-main: "Literata", sans-serif;
-        --font-secondary: "Literata", sans-serif;
-        --font-scale: 1em;
-        --background-color: #faf0e6;
-        --heading-color: #141413;
-        --text-color: #141413;
-        --blockquote-color: #141413;
-        --link-color: #1a5fb4;
-        --code-background-color: #0d1117;
-        --code-color: #f1f3f6;
-    }
+  :root {
+    --font-main: "Literata", sans-serif;
+    --font-secondary: "Literata", sans-serif;
+    --font-monospace: "Ubuntu Mono", monospace;
+    --font-scale: 1em;
+    --background-color: #faf0e6;
+    --heading-color: #141413;
+    --text-color: #141413;
+    --blockquote-color: #141413;
+    --link-color: #1a5fb4;
+    --code-background-color: #0d1117;
+    --code-color: #f1f3f6;
+  }
 
-    body {
-        line-height: 1.6;
-    }
+  body {
+    line-height: 1.6;
+  }
 
-    main {
-        margin: 0 1em;
-    }
+  main {
+    margin: 0 1em;
+  }
 
-    .main-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 1em 0;
-    }
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 0;
+  }
 
-    .main-header h2 {
-        margin: 0;
-    }
+  .main-header h2 {
+    margin: 0;
+  }
 
-    nav {
-        text-align: right;
-    }
+  nav {
+    text-align: right;
+  }
 
-    .site-logo {
-        height: 50px;
-        width: auto;
-    }
+  .site-logo {
+    height: 50px;
+    width: auto;
+  }
 
-    /* Optional: Add hover effect */
-    .logo-link:hover .site-logo {
-        opacity: 0.9;
-    }
+  /* Optional: Add hover effect */
+  .logo-link:hover .site-logo {
+    opacity: 0.9;
+  }
 
-    time {
-        font-family: var(--font-main);
-        font-size: 1em;
-    }
+  time {
+    font-family: var(--font-main);
+    font-size: 1em;
+  }
 
-    hr {
-        border: 1.5px solid black;
-        border-radius: 10px; /* More rounded corners */
-        margin: 20px 0;
-    }
+  hr {
+    border: 1.5px solid black;
+    border-radius: 10px; /* More rounded corners */
+    margin: 20px 0;
+  }
 
-    blockquote {
-        color: var(--blockquote-color);
-    }
+  blockquote {
+    color: var(--blockquote-color);
+  }
+
+  code {
+    font-family: var(--font-monospace);
+  }
 </style>
